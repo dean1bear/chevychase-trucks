@@ -1,0 +1,224 @@
+/* Reset styles and basic typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:black;
+
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Main content sections */
+  section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Truck inventory styles */
+  .truck {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .truck h3 {
+    margin-top: 0;
+  }
+  
+  .truck img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Gallery styles */
+  .gallery-item {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Video styles */
+  .video {
+    margin-bottom: 20px;
+  }
+  
+  .video iframe {
+    width: 100%;
+    height: 315px; /* Fixed height for consistency */
+  }
+  
+  /* Testimonial styles */
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    margin: 0 0 10px 0;
+  }
+  
+  .testimonial p {
+    font-weight: bold;
+  }
+  
+  /* Special offers styles */
+  #special-offers {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    text-align: center;
+    margin-bottom: 0; /* Override default margin */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    section {
+      padding: 15px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+/* Form container */
+#feedback-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form labels */
+  #feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Form inputs and selects */
+  #feedback-form input,
+  #feedback-form select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Phone number input pattern notice */
+  #feedback-form input[type="tel"]::placeholder {
+    color: #999;
+  }
+  
+  /* Form fieldset for rating */
+  #feedback-form fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #feedback-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Rating radio buttons */
+  #feedback-form fieldset label {
+    margin-right: 20px;
+  }
+  
+  /* Submit button */
+  #feedback-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #feedback-form button:hover {
+    background-color: #555;
+  }
+
+
+
+ 
